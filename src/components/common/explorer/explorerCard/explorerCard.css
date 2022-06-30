@@ -1,0 +1,43 @@
+.explore-card {
+    margin : 12px 0px 24px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid transparent;
+    box-shadow: rgb(0 0 0 /8%) 0px 3px 12px;
+    
+}
+
+.explore-card:hover {
+    border: 1px solid rgb(0 0 0 /7%);
+
+}
+
+.explore-card-cover {
+    height: 249px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.explore-card-image {
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+
+.explore-card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explore-card-price {
+    color: rgb(135, 197, 135);
+    font-weight: 800;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.explore-card-categories {
+    margin-top: 3px;
+    color: grey;
+}

@@ -1,0 +1,19 @@
+.options-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    width: 200px;
+    color: grey;
+    font-size: 18px;
+}
+
+.tab-item:hover {
+    color:red
+}
+
+.active-tab {
+    
+    color: red;
+}
+

@@ -1,0 +1,27 @@
+.delivery-category-cover {
+    height: 130px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgb(0 0 0 /8%) 0px 3px 12px; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.delivery-category-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.delivery-category-title {
+    font-size: 15px;
+    font-weight: 500;
+}
